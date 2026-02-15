@@ -1,6 +1,6 @@
 ### Frameworks
 
-This folder aims to archive the historical injection frameworks and the latest versions of different branches of the modern injection framework, the LSPosed framework. 
+This folder aims to archive the historical injection frameworks and the latest versions of different variants of the modern injection framework, the LSPosed framework. 
 
 #### Xposed
 
@@ -25,23 +25,23 @@ At that time, we recommended using the latest version of EdXposed's YAHFA (YAHFA
 
 #### LSPosed
 
-Compared to historical injection frameworks, LSPosed and LSPatch, as well as their branches, offer superior performance, functionality, stability, and concealment with LSPlant as the core, 
+Compared to historical injection frameworks, LSPosed and LSPatch, as well as their variants, offer superior performance, functionality, stability, and concealment with LSPlant as the core, 
 especially the stand-alone scope for each plugin, making it available to activate or deactivate the plugins whose targets do not involve the system framework without rebooting. 
-Nowadays, nearly all users rely on LSPosed or one of its branches as their injection framework, a small number use LSPatch, and only a very few continue to use legacy injection frameworks. 
-LSPosed and its branches require root privileges and are non-virtual frameworks, while LSPatch and its branches are virtual frameworks based on LSPlant that patch target applications using plugins. 
-Based on the analysis in the part of EdXposed and years of experience, we recommend using LSPosed and its branches over LSPatch and its branches. 
+Nowadays, nearly all users rely on LSPosed or one of its variants as their injection framework, a small number use LSPatch, and only a very few continue to use legacy injection frameworks. 
+LSPosed and its variants require root privileges and are non-virtual frameworks, while LSPatch and its variants are virtual frameworks based on LSPlant that patch target applications using plugins. 
+Based on the analysis in the part of EdXposed and years of experience, we recommend using LSPosed and its variants over LSPatch and its variants. 
 
-Among all the public branches of the LSPosed framework, it is recommended to use the latest release version built in the ``Actions`` page of the ``Jing Matrix`` branch. 
-Compared to the original official LSPosed and other LSPosed branches, the ``Jing Matrix``, ``it``, ``Irena``, and ``ReLSPosed`` branches have better performance, functionality, stability, and concealment. 
+Among all the public variants of the LSPosed framework, it is recommended to use the latest release version built in the ``Actions`` page of the ``Jing Matrix`` branch. 
+Compared to the original official LSPosed and other LSPosed variants, the ``Jing Matrix``, ``it``, ``Irena``, and ``ReLSPosed`` variants have better performance, functionality, stability, and concealment. 
 Compared to the original official LSPosed, the ``npm`` branch disables the logging, and the ``mod`` branch provides the command-line interface (CLI). 
 It is said that the members of the LSPosed ``it`` branch, a private branch, are mainly the members from the original official LSPosed. 
 If necessary, please apply for joining according to [https://t.me/RootDetected/138/510](https://t.me/RootDetected/138/510) and keep internal information confidential. 
 The version here is the latest leaked one fetched from [https://t.me/LSP_Leaks](https://t.me/LSP_Leaks). 
 Overall, please disable logging features that may trigger detection, enable Xposed API call protection, and configure the scope for each plugin based on the principle of least privilege. 
 
-Within LSPatch and its branches, we recommend using NPatch. 
+Within LSPatch and its variants, we recommend using NPatch. 
 
-- LSPosed and its branches
+- LSPosed and its variants
   - The original official LSPosed: [https://github.com/LSPosed/LSPosed](https://github.com/LSPosed/LSPosed) and [https://t.me/LSPosed](https://t.me/LSPosed)
   - The ``Jing Matrix`` branch: [https://github.com/JingMatrix/LSPosed](https://github.com/JingMatrix/LSPosed)
   - The ``it`` branch: This branch is private
@@ -49,7 +49,7 @@ Within LSPatch and its branches, we recommend using NPatch.
   - The ``ReLSPosed`` branch: [https://github.com/ThePedroo/ReLSPosed/actions/runs/18026600180](https://github.com/ThePedroo/ReLSPosed/actions/runs/18026600180)
   - The ``mod`` branch: [https://github.com/mywalkb/LSPosed_mod](https://github.com/mywalkb/LSPosed_mod)
   - The ``npm`` branch: No public official GitHub repositories are found. A possible publisher Telegram channel should be [https://t.me/rormzhstjxm](https://t.me/rormzhstjxm). 
-- LSPatch and its branches
+- LSPatch and its variants
   - The original official LSPatch: [https://github.com/LSPosed/LSPatch](https://github.com/LSPosed/LSPatch) and [https://t.me/LSPosed](https://t.me/LSPosed)
   - OPatch: [https://github.com/8MiYile/LSPatch-OP](https://github.com/8MiYile/LSPatch-OP)
   - NPatch: [https://github.com/7723mod/NPatch](https://github.com/7723mod/NPatch)
@@ -58,7 +58,7 @@ Within LSPatch and its branches, we recommend using NPatch.
 
 ### 框架
 
-本文件夹旨在存储历史注入框架和现代注入框架 LSPosed 的各个分支的最新版本。
+本文件夹旨在存储历史注入框架和现代注入框架 LSPosed 的各个变体的最新版本。
 
 #### Xposed
 
@@ -83,30 +83,30 @@ Within LSPatch and its branches, we recommend using NPatch.
 
 #### LSPosed
 
-与历史注入框架相比，LSPosed 和 LSPatch 及其分支以 LSPlant 为核心在性能上、功能上、稳定性和隐蔽性上均有着更出色的表现，
+与历史注入框架相比，LSPosed 和 LSPatch 及其变体以 LSPlant 为核心在性能上、功能上、稳定性和隐蔽性上均有着更出色的表现，
 尤其是其对每个插件独立的作用域实现，使得无需重启就能激活或不激活作用域不含有系统框架的插件成为了可能。
-现如今，几乎所有用户都在使用 LSPosed 或其分支之一作为注入框架，少部分用户在使用 LSPatch，极少部分用户依旧在使用历史注入框架。
-LSPosed 及其分支需要 root 权限，是非虚拟框架，而 LSPatch 及其分支则是基于 LSPlant 通过使用插件修补目标应用实现的虚拟框架。
-参阅 EdXposed 部分与多年来的实践，相比于 LSPatch 及其分支，我们更建议使用 LSPosed 及其分支。
+现如今，几乎所有用户都在使用 LSPosed 或其变体之一作为注入框架，少部分用户在使用 LSPatch，极少部分用户依旧在使用历史注入框架。
+LSPosed 及其变体需要 root 权限，是非虚拟框架，而 LSPatch 及其变体则是基于 LSPlant 通过使用插件修补目标应用实现的虚拟框架。
+参阅 EdXposed 部分与多年来的实践，相比于 LSPatch 及其变体，我们更建议使用 LSPosed 及其变体。
 
-在 LSPosed 的所有公开分支中，推荐使用 Jing Matrix 分支的 ``Actions`` 页中构建的最新发行版本。
-与原始官方 LSPosed 及其它 LSPosed 分支相比，``Jing Matrix``、``it``、``Irena`` 和 ``ReLSPosed`` 分支具有更强的性能、功能、稳定性和隐蔽性。
-与原始官方 LSPosed 相比，``npm`` 分支禁用了日志功能，``mod`` 版本提供命令行接口。
-据悉，LSPosed ``it`` 分支并不公开，其团队成员大多数为原始官方 LSPosed 的团队成员，如有需要，可根据 [https://t.me/RootDetected/138/510](https://t.me/RootDetected/138/510) 申请加入并对内部信息保密；
+在 LSPosed 的所有公开变体中，推荐使用 Jing Matrix 变体的 ``Actions`` 页中构建的最新发行版本。
+与原始官方 LSPosed 及其它 LSPosed 变体相比，``Jing Matrix``、``it``、``Irena`` 和 ``ReLSPosed`` 变体具有更强的性能、功能、稳定性和隐蔽性。
+与原始官方 LSPosed 相比，``npm`` 变体禁用了日志功能，``mod`` 版本提供命令行接口。
+据悉，LSPosed ``it`` 变体并不公开，其团队成员大多数为原始官方 LSPosed 的团队成员，如有需要，可根据 [https://t.me/RootDetected/138/510](https://t.me/RootDetected/138/510) 申请加入并对内部信息保密；
 此处放置的为所有已泄露的版本中的最新版本，一个可能的获取渠道为 [https://t.me/LSP_Leaks](https://t.me/LSP_Leaks)。
 总之，请关闭可能会导致被检测的日志功能，启用 Xposed API 调用保护，并基于最小权限原则为每个插件配置作用域。
 
-在 LSPatch 及其分支中，我们建议使用 NPatch。
+在 LSPatch 及其变体中，我们建议使用 NPatch。
 
-- LSPosed 及其分支
+- LSPosed 及其变体
   - 原始官方 LSPosed：[https://github.com/LSPosed/LSPosed](https://github.com/LSPosed/LSPosed) 和 [https://t.me/LSPosed](https://t.me/LSPosed)
-  - ``Jing Matrix`` 分支：[https://github.com/JingMatrix/LSPosed](https://github.com/JingMatrix/LSPosed)
-  - ``it`` 分支：该分支暂不公开
-  - ``Irena`` 分支：[https://github.com/re-zero001/LSPosed-Irena](https://github.com/re-zero001/LSPosed-Irena)
-  - ``ReLSPosed`` 分支：[https://github.com/ThePedroo/ReLSPosed/actions/runs/18026600180](https://github.com/ThePedroo/ReLSPosed/actions/runs/18026600180)
-  - ``mod`` 分支：[https://github.com/mywalkb/LSPosed_mod](https://github.com/mywalkb/LSPosed_mod)
-  - ``npm`` 分支：暂未找到公开的 npm 分支官方 GitHub 链接。一个可能的电报发布频道为 [https://t.me/rormzhstjxm](https://t.me/rormzhstjxm)
-- LSPatch 及其分支
+  - ``Jing Matrix`` 变体：[https://github.com/JingMatrix/LSPosed](https://github.com/JingMatrix/LSPosed)
+  - ``it`` 变体：该变体暂不公开
+  - ``Irena`` 变体：[https://github.com/re-zero001/LSPosed-Irena](https://github.com/re-zero001/LSPosed-Irena)
+  - ``ReLSPosed`` 变体：[https://github.com/ThePedroo/ReLSPosed/actions/runs/18026600180](https://github.com/ThePedroo/ReLSPosed/actions/runs/18026600180)
+  - ``mod`` 变体：[https://github.com/mywalkb/LSPosed_mod](https://github.com/mywalkb/LSPosed_mod)
+  - ``npm`` 变体：暂未找到公开的 npm 变体官方 GitHub 链接。一个可能的电报发布频道为 [https://t.me/rormzhstjxm](https://t.me/rormzhstjxm)
+- LSPatch 及其变体
   - 原始官方 LSPatch：[https://github.com/LSPosed/LSPatch](https://github.com/LSPosed/LSPatch) 和 [https://t.me/LSPosed](https://t.me/LSPosed)
   - OPatch：[https://github.com/8MiYile/LSPatch-OP](https://github.com/8MiYile/LSPatch-OP)
   - NPatch：[https://github.com/7723mod/NPatch](https://github.com/7723mod/NPatch)

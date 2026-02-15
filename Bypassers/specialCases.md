@@ -55,15 +55,15 @@ Update the Zygisk Next module to 1.3.0 and later.
 
 ##### Mount inconsistency detected / Magic Mount Detected
 
-- Magisk and its branches: Use Magisk Alpha and install the latest Shamiko module
-- Apatch and its branches: Embed the Cherish Peekaboo module as a kernel module (please check if the ``compat`` version is needed)
-- KSU and its branches: Use SukiSU-Ultra and Install the latest SUSFS module as a system module
+- Magisk and its variants: Use Magisk Alpha and install the latest Shamiko module
+- Apatch and its variants: Embed the Cherish Peekaboo module as a kernel module (please check if the ``compat`` version is needed)
+- KSU and its variants: Use SukiSU-Ultra and Install the latest SUSFS module as a system module
 
-##### Risky application detected (bypassed HMA and its branches with Code 3)
+##### Risky application detected (bypassed HMA and its variants with Code 3)
 
 The logic of this detection is to start an activity of the target application under Android 13. This detection is handled by ``HMA_v3.5`` from June 24th, 2025. 
 
-##### Risky application detected (bypassed HMA and its branches with Code 4)
+##### Risky application detected (bypassed HMA and its variants with Code 4)
 
 The logic of this detection is to find folders named by the application package names recorded in the library under certain specific directories. Please try to check whether there is a folder named by the listed package names found by the detector in ``/sdcard/Android/data``. If the folder is empty, you can try to delete it. 
 If necessary, please assign the listed application package names found by the detector to the variable ``packageNames`` with a space character as the separator. Subsequently, execute the following script as a non-root user to observe which folders named by the package names can be detected by applications without root permissions. 
@@ -104,11 +104,11 @@ Please refer to [https://bbs.kanxue.com/thread-285106-1.htm](https://bbs.kanxue.
 ##### The Postal Savings Bank application still crashes after using the latest official Magisk and the latest Shamiko module at that time, around September 2023
 
 - Caused by historical issues, updating can solve the problem
-- For users of Magisk and its branches
-  - If you were using Magisk and its branches around September 2023, please install the latest Magisk Delta and enable the whitelist mode
-  - If you were using Magisk and its branches between October 2023 and the discontinuation of Magisk Delta, please install the latest Magisk Alpha and the latest Shamiko module, or install the latest Magisk Delta and enable the whitelist mode
-  - If you were using Magisk and its branches between the discontinuation of Magisk Delta and the release of Zygisk Next version 1.3.0, please install the latest Magisk Alpha and the latest Shamiko module
-  - If you are currently using the official Magisk and its branches, please install the latest Magisk Alpha and the latest Zygisk Next module and enable ``Treat non-root apps as denylist`` with ``just_umount`` in the Zygisk Next module
+- For users of Magisk and its variants
+  - If you were using Magisk and its variants around September 2023, please install the latest Magisk Delta and enable the whitelist mode
+  - If you were using Magisk and its variants between October 2023 and the discontinuation of Magisk Delta, please install the latest Magisk Alpha and the latest Shamiko module, or install the latest Magisk Delta and enable the whitelist mode
+  - If you were using Magisk and its variants between the discontinuation of Magisk Delta and the release of Zygisk Next version 1.3.0, please install the latest Magisk Alpha and the latest Shamiko module
+  - If you are currently using the official Magisk and its variants, please install the latest Magisk Alpha and the latest Zygisk Next module and enable ``Treat non-root apps as denylist`` with ``just_umount`` in the Zygisk Next module
 
 ##### The Bank of China (Hong Kong) (BOCHK) application is unable to perform biometric authentication after upgrading its security measures on December 21st, 2025
 
@@ -233,11 +233,11 @@ Furthermore, Android application-layer injection has been proven impossible to b
 - Apatch 系列：以内核模块的形式嵌入 Cherish Peekaboo 模块（请自行排查是否需要 compat 版本）
 - KSU 系列：使用 SukiSU-Ultra 并安装最新版 SUSFS 模块
 
-##### 检测到风险应用（绕过 HMA 及其分支的代码 3）
+##### 检测到风险应用（绕过 HMA 及其变体的代码 3）
 
 该检测适用于安卓 13 以下的操作系统，通过启动目标应用的 Activity 实现检测，已于 2025 年 6 月 25 日在 ``HMA_v3.5.r449.1d951a3 (449)`` 中得到修复。
 
-##### 检测到风险应用（绕过 HMA 及其分支的代码 4）
+##### 检测到风险应用（绕过 HMA 及其变体的代码 4）
 
 该检测原理为找到了某些特定目录下存在以与库中记录的应用包名命名的文件夹，请尝试查看 ``/sdcard/Android/data`` 下是否存在以所列出包名命名的文件夹，如果该文件夹为空可尝试将其删除；
 如有必要，请将所列出的应用包名以空格为分隔符赋值为变量 ``packageNames``，随后以普通用户身份执行以下脚本观察无 root 权限的应用可以检测到哪些以包名命名的文件夹。
@@ -278,11 +278,11 @@ exit ${exitCode}
 ##### 2023 年 9 月左右使用了当时最新版官方面具和最新版 Shamiko 后打开邮储银行依旧直接闪退
 
 - 由历史问题引起，更新即可解决问题
-- 对于使用 Magisk 及其分支的用户
-  - 如果您在 2023 年 9 月左右使用 Magisk 及其分支，请使用最新的 Magisk Delta 并打开白名单模式
-  - 如果您在 2023 年 10 月与 Magisk Delta 停更之间使用 Magisk 及其分支，请安装最新的 Magisk Alpha 和最新的 Shamiko 模块，或安装最新的 Magisk Delta 并打开白名单模式
-  - 如果您在 Magisk Delta 停更与 Zygisk Next 1.3.0 版本发布之间使用 Magisk 及其分支，请安装最新的 Magisk Alpha 和最新的 Shamiko 模块
-  - 如果您现在正在使用官方 Magisk 及其分支，请安装最新的 Magisk Alpha 和最新的 Zygisk Next 模块并在 Zygisk Next 中启用将非 root 应用视为排除列表和仅还原挂载
+- 对于使用 Magisk 及其变体的用户
+  - 如果您在 2023 年 9 月左右使用 Magisk 及其变体，请使用最新的 Magisk Delta 并打开白名单模式
+  - 如果您在 2023 年 10 月与 Magisk Delta 停更之间使用 Magisk 及其变体，请安装最新的 Magisk Alpha 和最新的 Shamiko 模块，或安装最新的 Magisk Delta 并打开白名单模式
+  - 如果您在 Magisk Delta 停更与 Zygisk Next 1.3.0 版本发布之间使用 Magisk 及其变体，请安装最新的 Magisk Alpha 和最新的 Shamiko 模块
+  - 如果您现在正在使用官方 Magisk 及其变体，请安装最新的 Magisk Alpha 和最新的 Zygisk Next 模块并在 Zygisk Next 中启用将非 root 应用视为排除列表和仅还原挂载
 
 ##### 中银香港应用程序在 2025 年 12 月 21 日升级了保安措施后无法进行生物认证
 

@@ -2,7 +2,7 @@
 
 The implementers related to Low-level, Rooting, Zygisk, Riru, and Frameworks are stored here. 
 
-The following tutorial is applicable to the deployment of Magisk (and its branches) and Apatch (and its branches) on Android devices. If you have completed a step, please skip it directly. 
+The following tutorial is applicable to the deployment of Magisk (and its variants) and Apatch (and its variants) on Android devices. If you have completed a step, please skip it directly. 
 
 - Install the necessary adb, fastboot, and corresponding mobile device drivers on the computer
 - Connect the Android device to the computer via USB
@@ -30,7 +30,7 @@ The following tutorial is applicable to the deployment of Magisk (and its branch
       - Execute ``fastboot getvar current-slot`` on the computer to view the current active partition
       - If it is a: Execute ``fastboot flash boot_a "boot_patched.img"`` on the computer to flash the partition (here ``boot_patched.img`` is the computer file path of the patched boot.img)
       - If it is b: Execute ``fastboot flash boot_b "boot_patched.img"`` on the computer to flash the partition (here ``boot_patched.img`` is the computer file path of the patched boot.img)
-  - Route 2: Via a third-party recovery (only applicable to Magisk and its branches)
+  - Route 2: Via a third-party recovery (only applicable to Magisk and its variants)
     - Find and download the TWRP image for the current Android device and system
     - Reboot the Android device to fastboot mode
     - Use ``fastboot boot twrp.img`` to boot the Android device to temporary TWRP mode (here ``twrp.img`` is the downloaded TWRP image)
@@ -63,9 +63,9 @@ Among them, rebooting means rebooting into the normal mode by default. For the i
 
 The compatibility analysis of some implementations and modules is as follows, where "Y" means compatible and "N" means incompatible. 
 
-| Compatibility | Official Magisk and All branches of KSU | Magisk Alpha | Apatch | Zygisk Next | ReZygisk | NeoZygisk | Shamiko | NoHello | Zygisk Assistant |
+| Compatibility | Official Magisk and All variants of KSU | Magisk Alpha | Apatch | Zygisk Next | ReZygisk | NeoZygisk | Shamiko | NoHello | Zygisk Assistant |
 | - | - | - | - | - | - | - | - | - | - |
-| Official Magisk and All branches of KSU | - | N | N | Y | Y | Y | Y | Y | Y |
+| Official Magisk and All variants of KSU | - | N | N | Y | Y | Y | Y | Y | Y |
 | Magisk Alpha | N | - | N | Y | N | Y | Y | Y | Y |
 | Apatch | N | N | - | Y | Y | Y | N | Y | Y |
 | Zygisk Next | Y | Y | Y | - | N | N | Y | Y | Y |
@@ -99,7 +99,7 @@ It is worth noting that Zygisk Next integrates most of Shamiko's functionalities
 
 与底层、root、Zygisk、riru 和框架相关的部署工具在此处存储。
 
-以下教程适用于 Magisk 及其分支和 Apatch 及其分支在安卓设备上的部署，如已完成请直接跳过。
+以下教程适用于 Magisk 及其变体和 Apatch 及其变体在安卓设备上的部署，如已完成请直接跳过。
 
 - 在计算机上安装必要的 adb、fastboot 和对应的手机设备驱动
 - 将安卓设备与计算机进行 USB 连接
@@ -127,7 +127,7 @@ It is worth noting that Zygisk Next integrates most of Shamiko's functionalities
       - 在计算机中执行 ``fastboot getvar current-slot`` 查看当前活跃分区
       - 若为 a：在计算机中执行 ``fastboot flash boot_a "boot_patched.img"`` 刷入分区（此处 ``boot_patched.img`` 为修补后的 boot.img 的计算机文件路径）
       - 若为 b：在计算机中执行 ``fastboot flash boot_b "boot_patched.img"`` 刷入分区（此处 ``boot_patched.img`` 为修补后的 boot.img 的计算机文件路径）
-  - 第三方 Rec 路线（仅适用于 Magisk 及其分支）
+  - 第三方 Rec 路线（仅适用于 Magisk 及其变体）
     - 寻找并下载适用于当前安卓设备和系统的 TWRP 镜像
     - 重启安卓设备至 fastboot 模式
     - 使用 ``fastboot boot twrp.img`` 启动安卓设备至临时 TWRP 模式（此处 ``twrp.img`` 为下载的 TWRP 镜像）
@@ -160,9 +160,9 @@ It is worth noting that Zygisk Next integrates most of Shamiko's functionalities
 
 一些实现和模块之间的兼容性分析如下，其中 Y 表示兼容，N 表示不兼容。
 
-| 兼容性 | 官方 Magisk 和 KSU 的所有分支 | Magisk Alpha | Apatch | Zygisk Next | ReZygisk | NeoZygisk | Shamiko | NoHello | Zygisk Assistant |
+| 兼容性 | 官方 Magisk 和 KSU 的所有变体 | Magisk Alpha | Apatch | Zygisk Next | ReZygisk | NeoZygisk | Shamiko | NoHello | Zygisk Assistant |
 | - | - | - | - | - | - | - | - | - | - |
-| 官方 Magisk 和 KSU 的所有分支 | - | N | N | Y | Y | Y | Y | Y | Y |
+| 官方 Magisk 和 KSU 的所有变体 | - | N | N | Y | Y | Y | Y | Y | Y |
 | Magisk Alpha | N | - | N | Y | N | Y | Y | Y | Y |
 | Apatch | N | N | - | Y | Y | Y | N | Y | Y |
 | Zygisk Next | Y | Y | Y | - | N | N | Y | Y | Y |

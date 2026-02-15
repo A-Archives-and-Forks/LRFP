@@ -21,11 +21,11 @@ Since the keyword list in the GitHub repository description does not support mor
       - Safe mode
       - System
     - Rooting
-      - KernelSU and its branches
+      - KernelSU and its variants
         - SukiSU Ultra
         - KernelSU Next (KSUN)
         - KernelSU (KSU)
-      - Magisk and its branches
+      - Magisk and its variants
         - Magisk
         - Magisk Alpha
         - Magisk Delta
@@ -65,11 +65,11 @@ Since the keyword list in the GitHub repository description does not support mor
       - 安全模式
       - 系统
     - Rooting
-      - KernelSU 和它的分支
+      - KernelSU 和它的变体
         - SukiSU Ultra
         - KernelSU Next（KSUN）
         - KernelSU（KSU）
-      - 面具和它的分支
+      - 面具和它的变体
         - 面具
         - Alpha 版面具
         - Delta 版面具

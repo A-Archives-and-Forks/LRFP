@@ -4,9 +4,9 @@ Currently, SukiSU-Ultra + SUSFS + Zygisk Next (v1.3.0 and later) is the optimal 
 
 Given the following definitions, the development of bypassing can be briefly described as follows. 
 
-1) We define Magisk Fork as rooting solutions, including Magisk, KSU, Apatch, and their branches. 
+1) We define Magisk Fork as rooting solutions, including Magisk, KSU, Apatch, and their variants. 
 2) We define Zygisk Fork as built-in Zygisk and alternative Zygisk implementations. 
-3) We define LSPosed Fork as LSPosed and its branches. 
+3) We define LSPosed Fork as LSPosed and its variants. 
 
 - Magisk + Xposed (2018 and before), 
 - Magisk + Edxposed (2019), 
@@ -297,7 +297,7 @@ For special cases, please refer to [./specialCases.md](./specialCases.md).
 
 目前，SukiSU-Ultra + SUSFS + Zygisk Next（v1.3.0 及更高版本）是最好的 root + Zygisk 隐藏组合，其次为 Magisk Alpha + Zygisk Next（v1.3.0 及更高版本）、Apatch + Cherish Peekaboo + Zygisk Next（v1.3.0 及更高版本）和 Magisk Delta + 内置 Zygisk。
 
-通过将 Magisk Fork 定义为包括 Magisk、KSU、Apatch 及其分支在内的 root 方案，将 Zygisk Fork 定义为内置 Zygisk 和其它 Zygisk 实现，将 LSPosed Fork 定义为 LSPosed 及其分支，过检的发展历程可以简要描述如下。
+通过将 Magisk Fork 定义为包括 Magisk、KSU、Apatch 及其变体在内的 root 方案，将 Zygisk Fork 定义为内置 Zygisk 和其它 Zygisk 实现，将 LSPosed Fork 定义为 LSPosed 及其变体，过检的发展历程可以简要描述如下。
 
 - Magisk + Xposed（2018 年及之前版本）；
 - Magisk + Edxposed（2019 年）；
@@ -339,7 +339,7 @@ For special cases, please refer to [./specialCases.md](./specialCases.md).
       - 为避免某些应用程序无法正确运行，推荐禁用 Zygisk Next 链接器（或在 root 下执行 ``/data/adb/modules/zygisksu/bin/zygiskd linker system``）（最终使得文件 ``/data/adb/zygisksu/linker`` 的内容为 ``0``）（此选项在设备重启后才会生效）
       - 请保持“使用匿名内存”和“使用 Zygisk Next 链接器”同开同关以免被检测到
       - 移除 Shamiko 和 NoHello 模块，清理 ``/data/adb`` 下的痕迹并重启设备
-    - 在 SukiSU-Ultra 层安装 ``Jing Matrix`` 分支 GitHub 存储库的 ``Actions`` 选项卡中最后一次成功生成构建的工作流内生成的最新 Release 版的 [LSPosed](https://github.com/JingMatrix/LSPosed/actions) 模块
+    - 在 SukiSU-Ultra 层安装 ``Jing Matrix`` 变体 GitHub 存储库的 ``Actions`` 选项卡中最后一次成功生成构建的工作流内生成的最新 Release 版的 [LSPosed](https://github.com/JingMatrix/LSPosed/actions) 模块
       - 重启设备
       - 点击 SukiSU-Ultra 管理器中 LSPosed 模块详情中的操作（播放）按钮或使用拨号键拨号 ``*#*#5776733#*#*``（不要呼出）打开 LSPosed 管理器
       - 切换到 LSPosed 管理器的设置页
@@ -401,7 +401,7 @@ For special cases, please refer to [./specialCases.md](./specialCases.md).
     - 为避免某些应用程序无法正确运行，推荐禁用 Zygisk Next 链接器（或在 root 下执行 ``/data/adb/modules/zygisksu/bin/zygiskd linker system``）（最终使得文件 ``/data/adb/zygisksu/linker`` 的内容为 ``0``）（此选项在设备重启后才会生效）
     - 请保持“使用匿名内存”和“使用 Zygisk Next 链接器”同开同关以免被检测到
     - 移除 Shamiko 和 NoHello 模块，清理 ``/data/adb`` 下的痕迹并重启设备
-  - 在面具层安装 ``Jing Matrix`` 分支 GitHub 存储库的 ``Actions`` 选项卡中最后一次成功生成构建的工作流内生成的最新 Release 版的 [LSPosed](https://github.com/JingMatrix/LSPosed/actions) 模块
+  - 在面具层安装 ``Jing Matrix`` 变体 GitHub 存储库的 ``Actions`` 选项卡中最后一次成功生成构建的工作流内生成的最新 Release 版的 [LSPosed](https://github.com/JingMatrix/LSPosed/actions) 模块
     - 重启设备
     - 点击面具管理器中 LSPosed 模块详情中的操作（播放）按钮或使用拨号键拨号 ``*#*#5776733#*#*``（不要呼出）打开 LSPosed 管理器
     - 切换到 LSPosed 管理器的设置页
@@ -475,7 +475,7 @@ For special cases, please refer to [./specialCases.md](./specialCases.md).
       - 为避免某些应用程序无法正确运行，推荐禁用 Zygisk Next 链接器（或在 root 下执行 ``/data/adb/modules/zygisksu/bin/zygiskd linker system``）（最终使得文件 ``/data/adb/zygisksu/linker`` 的内容为 ``0``）（此选项在设备重启后才会生效）
       - 请保持“使用匿名内存”和“使用 Zygisk Next 链接器”同开同关以免被检测到
       - 移除 Shamiko 和 NoHello 模块，清理 ``/data/adb`` 下的痕迹并重启设备
-    - 在 Apatch 层安装 ``Jing Matrix`` 分支 GitHub 存储库的 ``Actions`` 选项卡中最后一次成功生成构建的工作流内生成的最新 Release 版的 [LSPosed](https://github.com/JingMatrix/LSPosed/actions) 模块
+    - 在 Apatch 层安装 ``Jing Matrix`` 变体 GitHub 存储库的 ``Actions`` 选项卡中最后一次成功生成构建的工作流内生成的最新 Release 版的 [LSPosed](https://github.com/JingMatrix/LSPosed/actions) 模块
       - 重启设备
       - 点击 Apatch 管理器中 LSPosed 模块详情中的操作（播放）按钮或使用拨号键拨号 ``*#*#5776733#*#*``（不要呼出）打开 LSPosed 管理器
       - 切换到 LSPosed 管理器的设置页
@@ -529,7 +529,7 @@ For special cases, please refer to [./specialCases.md](./specialCases.md).
     - 打开 Zygisk（或使用其它支持的 Zygisk 实现）
     - 在设置界面启用白名单模式
     - 选定需要 root 权限的应用的包（可以不选定某个应用程序内的所有包）
-  - 在面具层安装 ``Jing Matrix`` 分支 GitHub 存储库的 ``Actions`` 选项卡中最后一次成功生成构建的工作流内生成的最新 Release 版的 [LSPosed](https://github.com/JingMatrix/LSPosed/actions) 模块
+  - 在面具层安装 ``Jing Matrix`` 变体 GitHub 存储库的 ``Actions`` 选项卡中最后一次成功生成构建的工作流内生成的最新 Release 版的 [LSPosed](https://github.com/JingMatrix/LSPosed/actions) 模块
     - 重启设备
     - 点击面具管理器中 LSPosed 模块详情中的操作（播放）按钮或使用拨号键拨号 ``*#*#5776733#*#*``（不要呼出）打开 LSPosed 管理器
     - 切换到 LSPosed 管理器的设置页
