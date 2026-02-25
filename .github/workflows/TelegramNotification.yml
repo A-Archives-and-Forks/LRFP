@@ -13,6 +13,11 @@ jobs:
         with:
           fetch-depth: 2
       
+      - name: Get HKT
+        id: time
+        run: |
+          echo "time=HKT $(TZ='Asia/Hong_Kong' date '+%Y%m%d%H%M%S')" >> $GITHUB_OUTPUT
+      
       - name: Compute changes
         id: changes
         run: |
@@ -38,6 +43,7 @@ jobs:
             - Repository: [${{ github.repository }}](${{ github.server_url }}/${{ github.repository }})
             - Branch: [${{ github.ref_name }}](${{ github.server_url }}/${{ github.repository }}/tree/${{ github.ref_name }})
             - Commit: [${{ github.sha }}](${{ github.server_url }}/${{ github.repository }}/commit/${{ github.sha }})
+            - Time: ${{ steps.time.outputs.time }}
             
             Changes: 
             ```
