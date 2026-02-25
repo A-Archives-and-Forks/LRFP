@@ -16,7 +16,12 @@ jobs:
       - name: Compute changes
         id: changes
         run: |
-          changes=$(git diff --stat HEAD~1 HEAD)
+          if git rev-parse --verify HEAD~1 >/dev/null 2>&1;
+          then
+            changes=$(git diff --stat HEAD~1 HEAD)
+          else
+            changes=$(git show --stat HEAD)
+          fi
           echo "changes<<EOF" >> $GITHUB_OUTPUT
           echo "$changes" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
@@ -30,8 +35,8 @@ jobs:
           message: |
             New Push to GitHub! 
             
-            - Repository: ${{ github.repository }}
-            - Branch: ${{ github.ref_name }}
+            - Repository: [${{ github.repository }}](${{ github.server_url }}/${{ github.repository }})
+            - Branch: [${{ github.ref_name }}](${{ github.server_url }}/${{ github.repository }}/tree/${{ github.ref_name }})
             - Commit: [${{ github.sha }}](${{ github.server_url }}/${{ github.repository }}/commit/${{ github.sha }})
             
             Changes: 
