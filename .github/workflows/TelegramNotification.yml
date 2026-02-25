@@ -8,21 +8,33 @@ jobs:
   notify:
     runs-on: ubuntu-latest
     steps:
-      - name: Notify updates in the Telegram channel
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      
+      - name: Compute changes
+        id: changes
+        run: |
+          changes=$(git diff --stat HEAD~1 HEAD)
+          echo "changes<<EOF" >> $GITHUB_OUTPUT
+          echo "$changes" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+      
+      - name: Notify updates
         uses: appleboy/telegram-action@master
         with:
           to: ${{ secrets.TELEGRAM_CHAT_ID }}
           token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           format: markdown
           message: |
-            📢 *New Push to Repository*
+            New Push to GitHub! 
             
-            *Repository*: ${{ github.repository }}
-            *Branch*: ${{ github.ref_name }}
-            *Commit*: [${{ github.sha }}](${{ github.server_url }}/${{ github.repository }}/commit/${{ github.sha }})
-            *Author*: ${{ github.actor }}
+            - Repository: ${{ github.repository }}
+            - Branch: ${{ github.ref_name }}
+            - Commit: [${{ github.sha }}](${{ github.server_url }}/${{ github.repository }}/commit/${{ github.sha }})
             
-            *Message*:
+            Changes: 
             ```
-            ${{ github.event.head_commit.message }}
+            ${{ steps.changes.outputs.changes }}
             ```
