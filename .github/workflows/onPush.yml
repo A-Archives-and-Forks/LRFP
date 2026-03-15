@@ -1,4 +1,4 @@
-name: Telegram Notification
+name: On Push
 
 on:
   push:
@@ -9,23 +9,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 2
       
       - name: Prepare information
         id: information
         run: |
-          echo "time=HKT $(TZ='Asia/Hong_Kong' date '+%Y%m%d%H%M%S')" >> $GITHUB_OUTPUT
+          echo "time=HKT $(TZ='Asia/Hong_Kong' date '+%Y%m%d%H%M%S')" >> "${GITHUB_OUTPUT}"
           if git rev-parse --verify HEAD~1 >/dev/null 2>&1;
           then
             changes="$(git diff --stat HEAD~1 HEAD)"
           else
             changes="$(git show --stat HEAD)"
           fi
-          echo "changes<<EOF" >> $GITHUB_OUTPUT
-          echo "${changes}" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
+          echo "changes<<EOF" >> "${GITHUB_OUTPUT}"
+          echo "${changes}" >> "${GITHUB_OUTPUT}"
+          echo "EOF" >> "${GITHUB_OUTPUT}"
       
       - name: Notify updates
         uses: appleboy/telegram-action@master
