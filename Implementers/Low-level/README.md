@@ -36,7 +36,7 @@ For users who are using the OnePlus 13 series, please refer to [https://roms.dan
 Some known third-party recovery implementations are as follows. 
 
 - Teamwin Recovery Project (TWRP): [https://twrp.me/](https://twrp.me/)
-- OrangeFox: [https://orangefox.download/](https://orangefox.download/)
+- OrangeFox (OFox): [https://orangefox.download/](https://orangefox.download/)
 
 ---
 
@@ -69,4 +69,4 @@ Some known third-party recovery implementations are as follows.
 以下是一些知名的第三方恢复实现。
 
 - Teamwin Recovery Project（TWRP）：[https://twrp.me/](https://twrp.me/)
-- OrangeFox：[https://orangefox.download/](https://orangefox.download/)
+- OrangeFox（OFox）：[https://orangefox.download/](https://orangefox.download/)

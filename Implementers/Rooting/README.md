@@ -21,6 +21,7 @@ Variants within the same series are enumerated in ascending order of time. As th
     - [https://github.com/KernelSU-Next/KernelSU-Next](https://github.com/KernelSU-Next/KernelSU-Next)
     - [https://t.me/ksunext_ci](https://t.me/ksunext_ci)
   - SukiSU Ultra: [https://github.com/SukiSU-Ultra/SukiSU-Ultra](https://github.com/SukiSU-Ultra/SukiSU-Ultra)
+  - Wild KSU (WKSU): [https://github.com/WildKernels/Wild_KSU](https://github.com/WildKernels/Wild_KSU)
 
 Among the three series, Magisk and its variants are user-space-level rooting solutions, and the others are kernel-level ones. 
 
@@ -58,6 +59,7 @@ Compared to Riru, Zygisk allows Magisk to run within Zygote, offering more preci
     - [https://github.com/KernelSU-Next/KernelSU-Next](https://github.com/KernelSU-Next/KernelSU-Next)
     - [https://t.me/ksunext_ci](https://t.me/ksunext_ci)
   - SukiSU Ultra：[https://github.com/SukiSU-Ultra/SukiSU-Ultra](https://github.com/SukiSU-Ultra/SukiSU-Ultra)
+  - Wild KSU（WKSU）：[https://github.com/WildKernels/Wild_KSU](https://github.com/WildKernels/Wild_KSU)
 
 在这三个系列中，Magisk 及其变体是用户空间级别的 root 解决方案，而其他系列是内核级别的 root 解决方案。
 

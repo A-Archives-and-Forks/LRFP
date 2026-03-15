@@ -31,24 +31,27 @@ Nowadays, nearly all users rely on LSPosed or one of its variants as their injec
 LSPosed and its variants require root privileges and are non-virtual frameworks, while LSPatch and its variants are virtual frameworks based on LSPlant that patch target applications using plugins. 
 Based on the analysis in the part of EdXposed and years of experience, we recommend using LSPosed and its variants over LSPatch and its variants. 
 
-Among all the public variants of the LSPosed framework, it is recommended to use the latest release version built in the ``Actions`` page of the ``Jing Matrix`` branch. 
-Compared to the original official LSPosed and other LSPosed variants, the ``Jing Matrix``, ``it``, ``Irena``, and ``ReLSPosed`` variants have better performance, functionality, stability, and concealment. 
-Compared to the original official LSPosed, the ``npm`` branch disables the logging, and the ``mod`` branch provides the command-line interface (CLI). 
-It is said that the members of the LSPosed ``it`` branch, a private branch, are mainly the members from the original official LSPosed. 
+Among all the public variants of the LSPosed framework, it is recommended to use the latest release version built in the ``Actions`` page of the ``Jing Matrix`` variant. 
+Compared to the original official LSPosed and other LSPosed variants, the ``Jing Matrix``, ``it``, ``Irena``, and ``ReLSPosed`` variants have better performance, functionality, stability, and concealment, 
+where the ``ReLSPosed`` variant is forked from the ``Jing Matrix`` variant. 
+Compared to the original official LSPosed, the ``npm`` variant disables the logging, and the ``mod`` variant provides the command-line interface (CLI). 
+It is said that the members of the LSPosed ``it`` variant, a private variant, are mainly the members from the original official LSPosed. 
 If necessary, please apply for joining according to [https://t.me/RootDetected/138/510](https://t.me/RootDetected/138/510) and keep internal information confidential. 
-The version here is the latest leaked one fetched from [https://t.me/LSP_Leaks](https://t.me/LSP_Leaks). 
+The version of the LSPosed ``it`` variant here is the latest leaked one fetched from [https://t.me/LSP_Leaks](https://t.me/LSP_Leaks). 
 Overall, please disable logging features that may trigger detection, enable Xposed API call protection, and configure the scope for each plugin based on the principle of least privilege. 
 
 Within LSPatch and its variants, we recommend using NPatch. 
 
 - LSPosed and its variants
   - The original official LSPosed: [https://github.com/LSPosed/LSPosed](https://github.com/LSPosed/LSPosed) and [https://t.me/LSPosed](https://t.me/LSPosed)
-  - The ``Jing Matrix`` branch: [https://github.com/JingMatrix/LSPosed](https://github.com/JingMatrix/LSPosed)
-  - The ``it`` branch: This branch is private
-  - The ``Irena`` branch: [https://github.com/re-zero001/LSPosed-Irena](https://github.com/re-zero001/LSPosed-Irena)
-  - The ``ReLSPosed`` branch: [https://github.com/ThePedroo/ReLSPosed/actions/runs/18026600180](https://github.com/ThePedroo/ReLSPosed/actions/runs/18026600180)
-  - The ``mod`` branch: [https://github.com/mywalkb/LSPosed_mod](https://github.com/mywalkb/LSPosed_mod)
-  - The ``npm`` branch: No public official GitHub repositories are found. A possible publisher Telegram channel should be [https://t.me/rormzhstjxm](https://t.me/rormzhstjxm). 
+  - The ``Jing Matrix`` variant: [https://github.com/JingMatrix/LSPosed](https://github.com/JingMatrix/LSPosed)
+    - The latest workflow whose names of the artifacts start with ``LSPosed``: [https://github.com/JingMatrix/LSPosed/actions/runs/22019525776](https://github.com/JingMatrix/LSPosed/actions/runs/22019525776)
+    - The first workflow whose names of the artifacts start with ``Vector``: [https://github.com/JingMatrix/LSPosed/actions/runs/22694494599](https://github.com/JingMatrix/LSPosed/actions/runs/22694494599)
+  - The ``it`` variant: This variant is private
+  - The ``Irena`` variant: [https://github.com/re-zero001/LSPosed-Irena](https://github.com/re-zero001/LSPosed-Irena)
+  - The ``ReLSPosed`` variant (archived on February 13, 2026): [https://github.com/ThePedroo/ReLSPosed/actions/runs/18026600180](https://github.com/ThePedroo/ReLSPosed/actions/runs/18026600180)
+  - The ``mod`` variant (last released on March 8th, 2024): [https://github.com/mywalkb/LSPosed_mod](https://github.com/mywalkb/LSPosed_mod)
+  - The ``npm`` variant: No public official GitHub repositories are found (A possible publisher Telegram channel should be [https://t.me/rormzhstjxm](https://t.me/rormzhstjxm))
 - LSPatch and its variants
   - The original official LSPatch: [https://github.com/LSPosed/LSPatch](https://github.com/LSPosed/LSPatch) and [https://t.me/LSPosed](https://t.me/LSPosed)
   - OPatch: [https://github.com/8MiYile/LSPatch-OP](https://github.com/8MiYile/LSPatch-OP)
@@ -90,10 +93,11 @@ LSPosed 及其变体需要 root 权限，是非虚拟框架，而 LSPatch 及其
 参阅 EdXposed 部分与多年来的实践，相比于 LSPatch 及其变体，我们更建议使用 LSPosed 及其变体。
 
 在 LSPosed 的所有公开变体中，推荐使用 Jing Matrix 变体的 ``Actions`` 页中构建的最新发行版本。
-与原始官方 LSPosed 及其它 LSPosed 变体相比，``Jing Matrix``、``it``、``Irena`` 和 ``ReLSPosed`` 变体具有更强的性能、功能、稳定性和隐蔽性。
+与原始官方 LSPosed 及其它 LSPosed 变体相比，``Jing Matrix``、``it``、``Irena`` 和 ``ReLSPosed`` 变体具有更强的性能、功能、稳定性和隐蔽性，
+其中，``ReLSPosed`` 变体由 ``Jing Matrix`` 变体派生而来。
 与原始官方 LSPosed 相比，``npm`` 变体禁用了日志功能，``mod`` 版本提供命令行接口。
 据悉，LSPosed ``it`` 变体并不公开，其团队成员大多数为原始官方 LSPosed 的团队成员，如有需要，可根据 [https://t.me/RootDetected/138/510](https://t.me/RootDetected/138/510) 申请加入并对内部信息保密；
-此处放置的为所有已泄露的版本中的最新版本，一个可能的获取渠道为 [https://t.me/LSP_Leaks](https://t.me/LSP_Leaks)。
+此处放置的 LSPosed ``it`` 变体为所有已泄露的版本中的最新版本，一个可能的获取渠道为 [https://t.me/LSP_Leaks](https://t.me/LSP_Leaks)。
 总之，请关闭可能会导致被检测的日志功能，启用 Xposed API 调用保护，并基于最小权限原则为每个插件配置作用域。
 
 在 LSPatch 及其变体中，我们建议使用 NPatch。
@@ -101,11 +105,13 @@ LSPosed 及其变体需要 root 权限，是非虚拟框架，而 LSPatch 及其
 - LSPosed 及其变体
   - 原始官方 LSPosed：[https://github.com/LSPosed/LSPosed](https://github.com/LSPosed/LSPosed) 和 [https://t.me/LSPosed](https://t.me/LSPosed)
   - ``Jing Matrix`` 变体：[https://github.com/JingMatrix/LSPosed](https://github.com/JingMatrix/LSPosed)
+    - 最后一个生成物名称以 ``LSPosed`` 开头的工作流：[https://github.com/JingMatrix/LSPosed/actions/runs/22019525776](https://github.com/JingMatrix/LSPosed/actions/runs/22019525776)
+    - 第一个生成物名称以 ``Vector`` 开头的工作流：[https://github.com/JingMatrix/LSPosed/actions/runs/22694494599](https://github.com/JingMatrix/LSPosed/actions/runs/22694494599)
   - ``it`` 变体：该变体暂不公开
   - ``Irena`` 变体：[https://github.com/re-zero001/LSPosed-Irena](https://github.com/re-zero001/LSPosed-Irena)
-  - ``ReLSPosed`` 变体：[https://github.com/ThePedroo/ReLSPosed/actions/runs/18026600180](https://github.com/ThePedroo/ReLSPosed/actions/runs/18026600180)
-  - ``mod`` 变体：[https://github.com/mywalkb/LSPosed_mod](https://github.com/mywalkb/LSPosed_mod)
-  - ``npm`` 变体：暂未找到公开的 npm 变体官方 GitHub 链接。一个可能的电报发布频道为 [https://t.me/rormzhstjxm](https://t.me/rormzhstjxm)
+  - ``ReLSPosed`` 变体（已于 2026 年 2 月 13 日归档）：[https://github.com/ThePedroo/ReLSPosed/actions/runs/18026600180](https://github.com/ThePedroo/ReLSPosed/actions/runs/18026600180)
+  - ``mod`` 变体（最后一个版本发布于 2024 年 3 月 8 日）：[https://github.com/mywalkb/LSPosed_mod](https://github.com/mywalkb/LSPosed_mod)
+  - ``npm`` 变体：暂未找到公开的 npm 变体官方 GitHub 链接（一个可能的电报发布频道为 [https://t.me/rormzhstjxm](https://t.me/rormzhstjxm)）
 - LSPatch 及其变体
   - 原始官方 LSPatch：[https://github.com/LSPosed/LSPatch](https://github.com/LSPosed/LSPatch) 和 [https://t.me/LSPosed](https://t.me/LSPosed)
   - OPatch：[https://github.com/8MiYile/LSPatch-OP](https://github.com/8MiYile/LSPatch-OP)
