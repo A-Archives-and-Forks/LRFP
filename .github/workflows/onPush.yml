@@ -4,9 +4,6 @@ on:
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - main
 
 jobs:
   notify:
@@ -20,7 +17,7 @@ jobs:
       - name: Prepare information
         id: information
         run: |
-          echo "time=HKT $(TZ='Asia/Hong_Kong' date '+%Y%m%d%H%M%S')" >> "${GITHUB_OUTPUT}"
+          echo "time=HKT $(date '+%Y%m%d%H%M%S')" >> "${GITHUB_OUTPUT}"
           if git rev-parse --verify HEAD~1 >/dev/null 2>&1;
           then
             changes="$(git diff --stat HEAD~1 HEAD)"
@@ -30,6 +27,8 @@ jobs:
           echo "changes<<EOF" >> "${GITHUB_OUTPUT}"
           echo "${changes}" >> "${GITHUB_OUTPUT}"
           echo "EOF" >> "${GITHUB_OUTPUT}"
+        env:
+          TZ: 'Asia/Hong_Kong'
       
       - name: Notify updates
         uses: appleboy/telegram-action@master

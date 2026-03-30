@@ -44,9 +44,11 @@ Within LSPatch and its variants, we recommend using NPatch.
 
 - LSPosed and its variants
   - The original official LSPosed: [https://github.com/LSPosed/LSPosed](https://github.com/LSPosed/LSPosed) and [https://t.me/LSPosed](https://t.me/LSPosed)
-  - The ``Jing Matrix`` variant: [https://github.com/JingMatrix/LSPosed](https://github.com/JingMatrix/LSPosed)
-    - The latest workflow whose names of the artifacts start with ``LSPosed``: [https://github.com/JingMatrix/LSPosed/actions/runs/22019525776](https://github.com/JingMatrix/LSPosed/actions/runs/22019525776)
-    - The first workflow whose names of the artifacts start with ``Vector``: [https://github.com/JingMatrix/LSPosed/actions/runs/22694494599](https://github.com/JingMatrix/LSPosed/actions/runs/22694494599)
+  - The ``Jing Matrix`` variant
+    - Current: [https://github.com/JingMatrix/Vector](https://github.com/JingMatrix/Vector)
+    - Original: [https://github.com/JingMatrix/LSPosed](https://github.com/JingMatrix/LSPosed)
+      - The last workflow whose names of the artifacts start with ``LSPosed``: [https://github.com/JingMatrix/LSPosed/actions/runs/22019525776](https://github.com/JingMatrix/LSPosed/actions/runs/22019525776)
+      - The first workflow whose names of the artifacts start with ``Vector``: [https://github.com/JingMatrix/LSPosed/actions/runs/22694494599](https://github.com/JingMatrix/LSPosed/actions/runs/22694494599)
   - The ``it`` variant: This variant is private
   - The ``Irena`` variant: [https://github.com/re-zero001/LSPosed-Irena](https://github.com/re-zero001/LSPosed-Irena)
   - The ``ReLSPosed`` variant (archived on February 13, 2026): [https://github.com/ThePedroo/ReLSPosed/actions/runs/18026600180](https://github.com/ThePedroo/ReLSPosed/actions/runs/18026600180)
@@ -105,8 +107,10 @@ LSPosed 及其变体需要 root 权限，是非虚拟框架，而 LSPatch 及其
 - LSPosed 及其变体
   - 原始官方 LSPosed：[https://github.com/LSPosed/LSPosed](https://github.com/LSPosed/LSPosed) 和 [https://t.me/LSPosed](https://t.me/LSPosed)
   - ``Jing Matrix`` 变体：[https://github.com/JingMatrix/LSPosed](https://github.com/JingMatrix/LSPosed)
-    - 最后一个生成物名称以 ``LSPosed`` 开头的工作流：[https://github.com/JingMatrix/LSPosed/actions/runs/22019525776](https://github.com/JingMatrix/LSPosed/actions/runs/22019525776)
-    - 第一个生成物名称以 ``Vector`` 开头的工作流：[https://github.com/JingMatrix/LSPosed/actions/runs/22694494599](https://github.com/JingMatrix/LSPosed/actions/runs/22694494599)
+    - 当前的：[https://github.com/JingMatrix/Vector](https://github.com/JingMatrix/Vector)
+    - 原来的：[https://github.com/JingMatrix/LSPosed](https://github.com/JingMatrix/LSPosed)
+      - 最后一个生成物名称以 ``LSPosed`` 开头的工作流：[https://github.com/JingMatrix/LSPosed/actions/runs/22019525776](https://github.com/JingMatrix/LSPosed/actions/runs/22019525776)
+      - 第一个生成物名称以 ``Vector`` 开头的工作流：[https://github.com/JingMatrix/LSPosed/actions/runs/22694494599](https://github.com/JingMatrix/LSPosed/actions/runs/22694494599)
   - ``it`` 变体：该变体暂不公开
   - ``Irena`` 变体：[https://github.com/re-zero001/LSPosed-Irena](https://github.com/re-zero001/LSPosed-Irena)
   - ``ReLSPosed`` 变体（已于 2026 年 2 月 13 日归档）：[https://github.com/ThePedroo/ReLSPosed/actions/runs/18026600180](https://github.com/ThePedroo/ReLSPosed/actions/runs/18026600180)
