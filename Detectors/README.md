@@ -1,6 +1,6 @@
 ## Detectors
 
-Momo $ightarrow$ Native Root Detector $ightarrow$ Native Test $ightarrow$ Duck Detector
+Momo $\rightarrow$ Native Root Detector $\rightarrow$ Native Test $\rightarrow$ Duck Detector
 
 ### Bank of China (Hong Kong)
 
@@ -109,7 +109,7 @@ Momo $ightarrow$ Native Root Detector $ightarrow$ Native Test $ightarrow$ Duc
 - **Official Links**: [https://github.com/eltavine/Duck-Detector-Refactoring](https://github.com/eltavine/Duck-Detector-Refactoring); [https://t.me/duck_detector](https://t.me/duck_detector)
 - **Source Status**: Yes
 - **Category**: Environment Detection
-- **Latest Version**: ``v26.4.3-alpha-10e7ac96 (217)``
+- **Latest Version**: ``v26.4.4-alpha-98e80ce9 (220)``
 - **Release Date**:  April 16th, 2026
 - **Detection Remark**: This can be the most challenging one among all the detectors. 
 
@@ -229,7 +229,7 @@ Momo $ightarrow$ Native Root Detector $ightarrow$ Native Test $ightarrow$ Duc
 ### TamJiGi
 
 - **Alias**: xka wl rl
-- **Package Name**: ````
+- **Package Name**: ``id.my.pjm.qbcd_okr_dvii``
 - **Source Status**: No
 - **Category**: Environment Detection
 - **Latest Version**: ``v0.1.0 (46)``
@@ -307,7 +307,7 @@ Momo $ightarrow$ Native Root Detector $ightarrow$ Native Test $ightarrow$ Duc
 
 ## 检测软件
 
-Momo $ightarrow$ Native Root Detector $ightarrow$ 牛头人 $ightarrow$ Duck Detector
+Momo $\rightarrow$ Native Root Detector $\rightarrow$ 牛头人 $\rightarrow$ Duck Detector
 
 ### Bank of China (Hong Kong)
 
@@ -421,7 +421,7 @@ Momo $ightarrow$ Native Root Detector $ightarrow$ 牛头人 $ightarrow$ Duck 
 - **官方链接**：[https://github.com/eltavine/Duck-Detector-Refactoring](https://github.com/eltavine/Duck-Detector-Refactoring)；[https://t.me/duck_detector](https://t.me/duck_detector)
 - **开源状态**：是
 - **类别**：环境检测
-- **最新版本**：``v26.4.3-alpha-10e7ac96 (217)``
+- **最新版本**：``v26.4.4-alpha-98e80ce9 (220)``
 - **发行日期**： 2026 年 4 月 16 日
 - **检测备注**：This can be the most challenging one among all the detectors. 这应该是目前最难以绕过的检测。
 
@@ -551,7 +551,7 @@ Momo $ightarrow$ Native Root Detector $ightarrow$ 牛头人 $ightarrow$ Duck 
 ### TamJiGi
 
 - **应用别称**：xka wl rl
-- **应用包名**：````
+- **应用包名**：``id.my.pjm.qbcd_okr_dvii``
 - **开源状态**：否
 - **类别**：环境检测
 - **最新版本**：``v0.1.0 (46)``

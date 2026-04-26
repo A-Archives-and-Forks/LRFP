@@ -19,7 +19,7 @@ en
 | Applist Detector | ``icu.nullptr.applistdetector``；``com.tsng.applistdetector`` | [https://github.com/Dr-TSNG/ApplistDetector](https://github.com/Dr-TSNG/ApplistDetector) | 是 | 应用列表检测 | ``v2.4`` |  2022 年 8 月 12 日 |
 | Checker | ``org.akanework.checker`` | | | 环境检测 | ``v1.0.9`` | 早于 2025 年 1 月 8 日 |
 | DRM Info | ``com.androidfung.drminfo`` | [https://play.google.com/store/apps/details?id=com.androidfung.drminfo](https://play.google.com/store/apps/details?id=com.androidfung.drminfo) | | 信息收集 | ``v1.1.15-240919`` |  2024 年 9 月 19 日 |
-| Duck Detector | ``com.studio.duckdetector``；``com.eltavine.duckdetector`` | [https://github.com/eltavine/Duck-Detector-Refactoring](https://github.com/eltavine/Duck-Detector-Refactoring)；[https://t.me/duck_detector](https://t.me/duck_detector) | 是 | 环境检测 | ``v26.4.3-alpha-10e7ac96 (217)`` |  2026 年 4 月 16 日 |
+| Duck Detector | ``com.studio.duckdetector``；``com.eltavine.duckdetector`` | [https://github.com/eltavine/Duck-Detector-Refactoring](https://github.com/eltavine/Duck-Detector-Refactoring)；[https://t.me/duck_detector](https://t.me/duck_detector) | 是 | 环境检测 | ``v26.4.4-alpha-98e80ce9 (220)`` |  2026 年 4 月 16 日 |
 | Hunter | ``com.zhenxi.hunter`` | | | 环境检测 | ``v6.58 (658)`` |  2026 年 1 月 29 日 |
 | Luna | ``luna.safe.luna`` | [https://www.54nb.com/lunathanks.html](https://www.54nb.com/lunathanks.html)；[http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=59DJwD_gUpDYerkoGXf8hLg4X-opZImm&authKey=KZCWgoCQMOhN5M80g8%2Bq3L%2FIJvITTMAKTSevEQbahYSW5YwlW8Vq8v6JQ4hcivfp&noverify=0&group_code=1022646824](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=59DJwD_gUpDYerkoGXf8hLg4X-opZImm&authKey=KZCWgoCQMOhN5M80g8%2Bq3L%2FIJvITTMAKTSevEQbahYSW5YwlW8Vq8v6JQ4hcivfp&noverify=0&group_code=1022646824) | 否 | 环境检测 | ``v1.4.2.7`` | 不晚于 2025 年 10 月 9 日 |
 | Key Attestation | ``io.github.vvb2060.keyattestation`` | [https://github.com/vvb2060/KeyAttestation](https://github.com/vvb2060/KeyAttestation)；[https://t.me/magiskalpha](https://t.me/magiskalpha)；[https://t.me/playintegrityfix](https://t.me/playintegrityfix)；[https://github.com/chiteroman/KeyAttestation](https://github.com/chiteroman/KeyAttestation) | 是 | 密钥认证 | ``v1.8.4`` |  2025 年 2 月 6 日 |
@@ -32,7 +32,7 @@ en
 | Ruru | ``com.byxiaorun.detector`` | [https://github.com/byxiaorun/Ruru](https://github.com/byxiaorun/Ruru) | 是 | 环境检测 | ``v1.1.1 (15)`` |  2024 年 4 月 18 日 |
 | Securify | ``io.github.rabehx.securify`` | [https://github.com/RabehX/Securify](https://github.com/RabehX/Securify) | 否 | 环境检测 | ``v1.3.0`` |  2024 年 7 月 28 日 |
 | Simple Play Integrity Checker | ``com.henrikherzig.playintegritychecker`` | | 否 | Play 完整性检测 | ``v1.4.0`` | 早于 2024 年 11 月 10 日 |
-| TamJiGi | ```` | | 否 | 环境检测 | ``v0.1.0 (46)`` |  2024 年 11 月 22 日 |
+| TamJiGi | ``id.my.pjm.qbcd_okr_dvii`` | | 否 | 环境检测 | ``v0.1.0 (46)`` |  2024 年 11 月 22 日 |
 | Xposed Checker | ``ml.w568w.checkxposed`` | [https://github.com/w568w/XposedChecker](https://github.com/w568w/XposedChecker) | 是 | 环境检测 | ``v7.1 (9)`` | 早于 2022 年 2 月 3 日 |
 | Xposed Detector | ``io.github.vvb2060.xposeddetector`` | [https://github.com/vvb2060/XposedDetector](https://github.com/vvb2060/XposedDetector) |  | 环境检测 | ``v2.2 (5)`` |  2021 年 3 月 27 日 |
 | Yet Another SafetyNet Attestation Checker | ``rikka.safetynetchecker`` | [https://github.com/RikkaW/YASNAC](https://github.com/RikkaW/YASNAC) |  | Play 完整性检测 | ``v1.1.5.r65.15110ef310 (65)`` |  2022 年 4 月 4 日 |

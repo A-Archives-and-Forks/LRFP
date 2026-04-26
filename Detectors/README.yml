@@ -113,7 +113,7 @@
   - https://t.me/duck_detector
   openSource: true
   category: $D_E$
-  latestVersion: v26.4.3-alpha-10e7ac96 (217)
+  latestVersion: v26.4.4-alpha-98e80ce9 (220)
   releaseDate: = 20260416
   detectionRemark:
     '*': 'This can be the most challenging one among all the detectors. '
@@ -275,11 +275,11 @@
   latestVersion: v1.4.0
   releaseDate: < 20241110
 - name: TamJiGi
-  packageName: ''
   alias:
     '*': xka wl rl
     ZH: 探知君
     JP: 探知機（탐지기）
+  packageName: id.my.pjm.qbcd_okr_dvii
   openSource: false
   category: $D_E$
   latestVersion: v0.1.0 (46)
