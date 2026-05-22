@@ -117,8 +117,8 @@ Momo $\rightarrow$ Native Root Detector $\rightarrow$ Native Test $\rightarrow$ 
 - **Official Links**: [https://github.com/eltavine/Duck-Detector-Refactoring](https://github.com/eltavine/Duck-Detector-Refactoring); [https://t.me/duck_detector](https://t.me/duck_detector)
 - **Source Status**: Yes
 - **Category**: Environment Detection
-- **Latest Version**: ``v2026.05.13-e27a91371532 (422)``
-- **Release Date**:  May 13th, 2026
+- **Latest Version**: ``v2026.05.22-b610f8e7a13e (435)``
+- **Release Date**:  May 22nd, 2026
 - **Detection Remark**: This should be the most challenging one among all the detectors. 
 
 ### Hunter
@@ -152,7 +152,7 @@ Momo $\rightarrow$ Native Root Detector $\rightarrow$ Native Test $\rightarrow$ 
 
 - **Package Name**: ``io.github.vvb2060.magiskdetector``
 - **Official Link**: https://github.com/vvb2060/MagiskDetector
-- **Source Status**: 
+- **Source Status**: Yes
 - **Category**: Magisk Detection
 - **Latest Version**: ``v3.0``
 - **Release Date**:  August 9th, 2022
@@ -257,7 +257,7 @@ Momo $\rightarrow$ Native Root Detector $\rightarrow$ Native Test $\rightarrow$ 
 
 - **Package Name**: ``io.github.vvb2060.xposeddetector``
 - **Official Link**: https://github.com/vvb2060/XposedDetector
-- **Source Status**: 
+- **Source Status**: Yes
 - **Category**: Environment Detection
 - **Latest Version**: ``v2.2 (5)``
 - **Release Date**:  March 27th, 2021
@@ -267,7 +267,7 @@ Momo $\rightarrow$ Native Root Detector $\rightarrow$ Native Test $\rightarrow$ 
 - **Alias**: YASNAC
 - **Package Name**: ``rikka.safetynetchecker``
 - **Official Link**: https://github.com/RikkaW/YASNAC
-- **Source Status**: 
+- **Source Status**: Yes
 - **Category**: Play Integrity Check
 - **Latest Version**: ``v1.1.5.r65.15110ef310 (65)``
 - **Release Date**:  April 4th, 2022
@@ -437,8 +437,8 @@ Momo $\rightarrow$ Native Root Detector $\rightarrow$ 牛头人 $\rightarrow$ Du
 - **官方链接**：[https://github.com/eltavine/Duck-Detector-Refactoring](https://github.com/eltavine/Duck-Detector-Refactoring)；[https://t.me/duck_detector](https://t.me/duck_detector)
 - **开源状态**：是
 - **类别**：环境检测
-- **最新版本**：``v2026.05.13-e27a91371532 (422)``
-- **发行日期**： 2026 年 5 月 13 日
+- **最新版本**：``v2026.05.22-b610f8e7a13e (435)``
+- **发行日期**： 2026 年 5 月 22 日
 - **检测备注**：This should be the most challenging one among all the detectors. 这应该是目前最难以绕过的检测工具。
 
 ### Hunter
@@ -477,7 +477,7 @@ Momo $\rightarrow$ Native Root Detector $\rightarrow$ 牛头人 $\rightarrow$ Du
 - **应用别称**：Magisk 检测应用
 - **应用包名**：``io.github.vvb2060.magiskdetector``
 - **官方链接**：[https://github.com/vvb2060/MagiskDetector](https://github.com/vvb2060/MagiskDetector)
-- **开源状态**：
+- **开源状态**：是
 - **类别**：面具检测
 - **最新版本**：``v3.0``
 - **发行日期**： 2022 年 8 月 9 日
@@ -589,7 +589,7 @@ Momo $\rightarrow$ Native Root Detector $\rightarrow$ 牛头人 $\rightarrow$ Du
 - **应用别称**：Xposed 检测应用
 - **应用包名**：``io.github.vvb2060.xposeddetector``
 - **官方链接**：[https://github.com/vvb2060/XposedDetector](https://github.com/vvb2060/XposedDetector)
-- **开源状态**：
+- **开源状态**：是
 - **类别**：环境检测
 - **最新版本**：``v2.2 (5)``
 - **发行日期**： 2021 年 3 月 27 日
@@ -600,7 +600,7 @@ Momo $\rightarrow$ Native Root Detector $\rightarrow$ 牛头人 $\rightarrow$ Du
 - **应用别称**：YASNAC
 - **应用包名**：``rikka.safetynetchecker``
 - **官方链接**：[https://github.com/RikkaW/YASNAC](https://github.com/RikkaW/YASNAC)
-- **开源状态**：
+- **开源状态**：是
 - **类别**：Play 完整性检测
 - **最新版本**：``v1.1.5.r65.15110ef310 (65)``
 - **发行日期**： 2022 年 4 月 4 日

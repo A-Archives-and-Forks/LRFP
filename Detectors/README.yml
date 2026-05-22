@@ -119,8 +119,8 @@
   - https://t.me/duck_detector
   openSource: true
   category: $D_E$
-  latestVersion: v2026.05.13-e27a91371532 (422)
-  releaseDate: = 20260513
+  latestVersion: v2026.05.22-b610f8e7a13e (435)
+  releaseDate: = 20260522
   detectionRemark:
     '*': 'This should be the most challenging one among all the detectors. '
     zh-CN: 这应该是目前最难以绕过的检测工具。
@@ -171,7 +171,7 @@
     zh-CN: Magisk 检测应用
   packageName: io.github.vvb2060.magiskdetector
   officialLink: https://github.com/vvb2060/MagiskDetector
-  openSource: AO
+  openSource: true
   category: $D_M$
   latestVersion: v3.0
   releaseDate: = 20220809
@@ -306,7 +306,7 @@
     zh-CN: Xposed 检测应用
   packageName: io.github.vvb2060.xposeddetector
   officialLink: https://github.com/vvb2060/XposedDetector
-  openSource: AO
+  openSource: true
   category: $D_E$
   latestVersion: v2.2 (5)
   releaseDate: = 20210327
@@ -317,7 +317,7 @@
     '*': YASNAC
   packageName: rikka.safetynetchecker
   officialLink: https://github.com/RikkaW/YASNAC
-  openSource: AO
+  openSource: true
   category: $D_P$
   latestVersion: v1.1.5.r65.15110ef310 (65)
   releaseDate: = 20220404

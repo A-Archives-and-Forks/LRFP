@@ -181,7 +181,8 @@ class Detectors:
 							txt += "- **Official Links**: " + "; ".join(["[{0}]({0})".format(link) for link in detector["officialLink"]]) + "\n"
 						else:
 							txt += "- **Official Link**: " + detector["officialLink"] + "\n"
-					txt += "- **Source Status**: " + self.__getSourceStatus(detector["openSource"], "en") + "\n" if "openSource" in detector else ""
+					if "openSource" in detector:
+						txt += "- **Source Status**: " + self.__getSourceStatus(detector["openSource"], "en") + "\n"
 					txt += "- **Category**: " + self.__getCategory(detector["category"], "en") + "\n" if "category" in detector else ""
 					txt += "- **Latest Version**: ``{0}``\n".format(detector["latestVersion"]) if "latestVersion" in detector else ""
 					txt += "- **Release Date**: " + self.__getReleaseDate(detector["releaseDate"], "en") + "\n" if "releaseDate" in detector else ""
@@ -220,7 +221,8 @@ class Detectors:
 							txt += "- **官方链接**：" + "；".join(["[{0}]({0})".format(link) for link in detector["officialLink"]]) + "\n"
 						else:
 							txt += "- **官方链接**：" + "[{0}]({0})".format(detector["officialLink"]) + "\n"
-					txt += "- **开源状态**：" + self.__getSourceStatus(detector["openSource"], "zh-CN") + "\n" if "openSource" in detector else ""
+					if "openSource" in detector:
+						txt += "- **开源状态**：" + self.__getSourceStatus(detector["openSource"], "zh-CN") + "\n"
 					txt += "- **类别**：" + self.__getCategory(detector["category"], "zh-CN") + "\n" if "category" in detector else ""
 					txt += "- **最新版本**：``{0}``\n".format(detector["latestVersion"]) if "latestVersion" in detector else ""
 					txt += "- **发行日期**：" + self.__getReleaseDate(detector["releaseDate"], "zh-CN") + "\n" if "releaseDate" in detector else ""

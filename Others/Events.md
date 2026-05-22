@@ -21,6 +21,8 @@ Related events related to Magisk, Zygisk, and LSPosed are stored here.
 - 20260325: Some plugins that are explicitly prohibited from distribution in certain regions are being widely disseminated on popular social media platforms in those regions. 
 - 20260331: The LSPosed official released official LSPosed based on libxposed101. 
 - 20260404: Tools similar to MT Manager had their Dex string decryption functionality exposed as having vulnerabilities, and MT Manager subsequently fixed the issue. 
+- 20260409-20260503: Some LRFP-related repositories have updated slowly, not been updated for a long time, or have announced discontinuity. It is reported that some of these repositories were developed and maintained by senior middle school students in mainland China who are preparing for the college entrance examination. 
+- 20260502: Access to GitHub from mainland China is extremely unstable, exacerbated by DNS pollution. 
 - 20260510: It is pointed out that userspace rooting solutions such as Magisk cannot avoid being detected. 
 
 ---
@@ -48,4 +50,6 @@ Related events related to Magisk, Zygisk, and LSPosed are stored here.
 - 20260325：一些已明确禁止在某些地区传播的插件在该地区的知名社交平台上被大范围传播。
 - 20260331：LSPosed 官方发布了基于 libxposed101 的 LSPosed 构建。
 - 20260404：类似于 MT 管理器的工具的 Dex 字符串解密功能被曝存在风险，随后 MT 管理器修复了相关问题。
-- 29260510：用户态 root 实现方案（如 Magisk）被指出无法规避被检测。
+- 20260409-20260503：与 LRFP 有关的部分存储库更新缓慢、长期未更新或宣布停更。据悉，其中一部分存储库由中国大陆的高中生开发和维护，他们正在准备高考。
+- 20260502：中国大陆访问 GitHub 网络十分不稳定，DNS 污染加剧。
+- 20260510：用户态 root 实现方案（如 Magisk）被指出无法规避被检测。
