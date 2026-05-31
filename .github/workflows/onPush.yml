@@ -12,23 +12,30 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
         with:
-          fetch-depth: 2
+          fetch-depth: 0
       
       - name: Prepare information
         id: information
         run: |
           echo "time=HKT $(date '+%Y%m%d%H%M%S')" >> "${GITHUB_OUTPUT}"
-          if git rev-parse --verify HEAD~1 >/dev/null 2>&1;
+          previousCommit="${{ github.event.before }}"
+          currentCommit="${{ github.sha }}"
+          if [[ "0000000000000000000000000000000000000000" == "${previousCommit}" ]];
           then
-            changes="$(git diff --stat HEAD~1 HEAD)"
+            entryTree="$(git hash-object -t tree /dev/null)"
+            changes="$(git diff --stat "${entryTree}" "${currentCommit}")"
           else
-            changes="$(git show --stat HEAD)"
+            commonBase="$(git merge-base "${previousCommit}" "${currentCommit}")"
+            changes="$(git diff --stat "${commonBase}" "${currentCommit}")"
           fi
           maximumLength=3072
           if [[ ${#changes} -gt ${maximumLength} ]];
           then
             lastLine="$(echo "${changes}" | tail -n 1)"
             changes="$(echo "${changes:0:${maximumLength}}" | head -n -1)"$'\n...\n'"${lastLine}"
+          elif [[ -z "${changes}" ]];
+          then
+            changes="0 files changed, 0 insertions(+), 0 deletions(-)"
           fi
           echo "changes<<EOF" >> "${GITHUB_OUTPUT}"
           echo "${changes}" >> "${GITHUB_OUTPUT}"
