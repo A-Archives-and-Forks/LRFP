@@ -4,7 +4,7 @@ This folder aims to archive the latest versions of different Magisk, Apatch (AP)
 
 Please also consider using the latest one generated in the ``Actions`` tab of the corresponding GitHub repository if open-source. 
 
-Variants within the same series are enumerated in ascending order of time. As there are many kernel files in KSU and its variants, they would not be stored here. 
+Variants within the same series are enumerated in ascending order of time. Kernel files and spoofed managers (non-archived) in KSU and its variants would not be stored here to reduce the repository size. 
 
 - Magisk and its variants 
   - Magisk / Magisk Beta / Magisk Canary / Magisk Debug: [https://github.com/topjohnwu/Magisk](https://github.com/topjohnwu/Magisk)
@@ -47,7 +47,7 @@ That is to say, metamodules will control the installation of the rooting-layer s
 
 对于开源存储库，请一并考虑使用相应 GitHub 存储库中 ``Actions`` 选项卡里的最新版本。
 
-同一系列的变体按时间顺序升序枚举；由于 KSU 及其变体的内核文件太多，此处不存储此类文件。
+同一系列的变体按时间顺序升序枚举；为了减少存储库的大小，KSU 及其变体中的内核文件和混淆管理器（未归档的）将不会存储在此处。
 
 - 面具及其变体
   - 面具 / Beta 版面具 / 金丝雀面具 / Debug 版面具：[https://github.com/topjohnwu/Magisk](https://github.com/topjohnwu/Magisk)

@@ -117,8 +117,8 @@ Momo $\rightarrow$ Native Root Detector $\rightarrow$ Native Test $\rightarrow$ 
 - **Official Links**: [https://github.com/eltavine/Duck-Detector-Refactoring](https://github.com/eltavine/Duck-Detector-Refactoring); [https://t.me/duck_detector](https://t.me/duck_detector)
 - **Source Status**: Yes
 - **Category**: Environment Detection
-- **Latest Version**: ``v2026.05.22-b610f8e7a13e (435)``
-- **Release Date**:  May 22nd, 2026
+- **Latest Version**: ``v2026.06.02-e9152c36f45c (474)``
+- **Release Date**:  June 2nd, 2026
 - **Detection Remark**: This should be the most challenging one among all the detectors. 
 
 ### Hunter
@@ -437,8 +437,8 @@ Momo $\rightarrow$ Native Root Detector $\rightarrow$ 牛头人 $\rightarrow$ Du
 - **官方链接**：[https://github.com/eltavine/Duck-Detector-Refactoring](https://github.com/eltavine/Duck-Detector-Refactoring)；[https://t.me/duck_detector](https://t.me/duck_detector)
 - **开源状态**：是
 - **类别**：环境检测
-- **最新版本**：``v2026.05.22-b610f8e7a13e (435)``
-- **发行日期**： 2026 年 5 月 22 日
+- **最新版本**：``v2026.06.02-e9152c36f45c (474)``
+- **发行日期**： 2026 年 6 月 2 日
 - **检测备注**：This should be the most challenging one among all the detectors. 这应该是目前最难以绕过的检测工具。
 
 ### Hunter
