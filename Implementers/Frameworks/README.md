@@ -49,7 +49,7 @@ Overall, please disable logging features that may trigger detection, enable Xpos
 
 Within LSPatch and its variants, we recommend using NPatch. 
 
-- Non-virtual frameworks: LSPosed and its variants (the latest versions based on libxposed100 and libxposed101 are saved for each variant)
+- Non-virtual frameworks: LSPosed and its variants (the latest versions based on libxposed100- and libxposed101+ are saved for each variant)
   - The original official LSPosed (marked ``archived`` on GitHub but still updating privately in the ``it`` variant)
     - [https://github.com/LSPosed/LSPosed](https://github.com/LSPosed/LSPosed)
     - [https://t.me/LSPosed](https://t.me/LSPosed)
@@ -67,9 +67,8 @@ Within LSPatch and its variants, we recommend using NPatch.
   - The original official LSPatch
     - [https://github.com/LSPosed/LSPatch](https://github.com/LSPosed/LSPatch)
     - [https://t.me/LSPosed](https://t.me/LSPosed)
-  - OPatch
-    - Origin (archived on January 4th, 2025): [https://github.com/8MiYile/LSPatch-OP](https://github.com/8MiYile/LSPatch-OP)
-    - Build (archived on November 6th, 2024): [https://github.com/JERRY-SYSTEM/OPatch](https://github.com/JERRY-SYSTEM/OPatch)
+  - OPatch (No public official repositories can be found on GitHub)
+    - A possible unofficial build (archived on November 6th, 2024): [https://github.com/JERRY-SYSTEM/OPatch](https://github.com/JERRY-SYSTEM/OPatch)
   - NPatch: [https://github.com/7723mod/NPatch](https://github.com/7723mod/NPatch)
 
 ---
@@ -124,7 +123,7 @@ LSPosed 及其变体需要 root 权限，是非虚拟框架，而 LSPatch 及其
 
 在 LSPatch 及其变体中，我们建议使用 NPatch。
 
-- 非虚拟框架：LSPosed 及其变体（保存了各变体 libxposed100 和 libxposed101 的最新版）
+- 非虚拟框架：LSPosed 及其变体（保存了各变体 libxposed100- 和 libxposed101+ 的最新版）
   - 原始官方 LSPosed（在 GitHub 上标记为已归档但依旧在 ``it`` 变体中不公开地更新）
     - [https://github.com/LSPosed/LSPosed](https://github.com/LSPosed/LSPosed)
     - [https://t.me/LSPosed](https://t.me/LSPosed)
@@ -140,7 +139,6 @@ LSPosed 及其变体需要 root 权限，是非虚拟框架，而 LSPatch 及其
   - ``npm`` 变体：暂未找到公开的 npm 变体官方 GitHub 链接（一个可能的电报发布频道为 [https://t.me/rormzhstjxm](https://t.me/rormzhstjxm)）
 - 虚拟框架：LSPatch 及其变体
   - 原始官方 LSPatch：[https://github.com/LSPosed/LSPatch](https://github.com/LSPosed/LSPatch) 和 [https://t.me/LSPosed](https://t.me/LSPosed)
-  - OPatch（O 神）
-    - 原始存储库（已于 2025 年 1 月 4 日归档）：[https://github.com/8MiYile/LSPatch-OP](https://github.com/8MiYile/LSPatch-OP)
-    - 本存储库保存的构建（已于 2024 年 11 月 6 日归档）：[https://github.com/JERRY-SYSTEM/OPatch](https://github.com/JERRY-SYSTEM/OPatch)
+  - OPatch（O 神）（未能在 GitHub 上找到官方公开的存储库）
+    - 一个可能的非官方构建（已于 2024 年 11 月 6 日归档）：[https://github.com/JERRY-SYSTEM/OPatch](https://github.com/JERRY-SYSTEM/OPatch)
   - NPatch：[https://github.com/7723mod/NPatch](https://github.com/7723mod/NPatch)
