@@ -146,7 +146,7 @@ Ask your ROM developer to sign the ROM when building
   - If you are using a QQ version above ``v8.9.56`` that is affected by the 2024 autumn to 2025 spring risk control event (the phenomenon is most obvious when using the ``v9.1.35`` version)
     - Please refer to the issues mentioned in (``v8.8.17``, ``v8.9.56``]
     - If you want to use the XAutoDaily (XA) plugin or the QAuxiliary (QA) plugin while you can still downgrade your QQ
-      - Make sure that you have already hidden the rooting and injection environments according to the common procedures shown in this page
+      - Make sure that you have already hidden the rooting and injection environments according to the common procedures under this directory
       - In the QAuxiliary (QA) plugin, turn on the "disable QQ hot patch" switch and turn off the "environment detection package (trpc.o3.*) interception" switch
       - Switch to the ``v9.1.31`` or lower versions, 
       - Switch to the ``v9.0.95`` or lower versions, or
@@ -164,9 +164,12 @@ Ask your ROM developer to sign the ROM when building
 
 ##### Speculations about social media applications sending device risk alerts, deactivating users, restricting social features, or freezing accounts
 
-Although some "LRFP" enthusiasts claim that WeChat and QQ restrictions are unrelated to their versions, with a detailed quantitative computation method proposed, our personal perspective is that the higher the version, the more "cold" code there is locally for environment detection, and the richer the support for "hot" code sent from the cloud for environment detection. 
+Although some "LRFP" enthusiasts claim that WeChat and QQ restrictions are unrelated to their versions, with a detailed quantitative computation method proposed, our perspective is that the higher the version, the more "cold" code there is locally for environment detection, and the richer the support for "hot" code sent from the cloud for environment detection, according to the following observations. 
 
-For a long time, members of our team were often deactivated and restricted the next day after upgrading to a certain version during the major risk control periods. Downgrading to a version below that level only resulted in a warning, and downgrading to an even lower version or below eliminated any warnings, where, if the warnings were caused by the device ID being previously uploaded to the cloud, replacing the device is necessary. 
+- For a long time, members of our team were often deactivated and restricted the next day after upgrading to a certain version during the major risk control periods. Downgrading to a version below that level only resulted in a warning, and downgrading to an even lower version or below eliminated any warnings, where, if the warnings were caused by the device ID being previously uploaded to the cloud, replacing the device is necessary. 
+- Some developers captured frequent hotfixes before the large-scale account logging-out and blocking event on June 15, 2026. In this event, almost all the users who were logged out and blocked were using higher versions of WeChat and earlier versions of WeChat without disabling hotfixes in plugins. It is necessary to conduct full comparison experiments by testing higher versions of WeChat with plugins supporting disabling hotfixes. 
+
+Here, we recommend using an earlier version, with hotfixes disabled to bypass detection. If the LRFP environments are detected only as isolated incidents, it is often a matter of being detected by "cold" code. If the LRFP environments are detected as a large-scale event concentrated in time, it is often a matter being detected by "hot" code. 
 
 Furthermore, Android application-layer injection has been proven impossible to bypass by any third-party means. As long as the injected application wants to detect the injection, it can succeed. Secure bypassing is only possible by "controlling" all environment detection-related code within the target application while injecting. This requires plugin developers to conduct in-depth reverse engineering of the target application and make bold assumptions about the cloud. 
 
@@ -320,7 +323,7 @@ exit ${exitCode}
   - 如果您使用的 QQ 版本高于 ``v8.9.56`` 且受 2024 年秋季至 2025 年春季风控事件影响（使用 ``v9.1.35`` 版本时现象最为明显）
     - 请参阅 (``v8.8.17``, ``v8.9.56``]
     - 如果您想使用 XAutoDaily（XA）插件或 QAuxiliary（QA）插件，并且仍然可以降级您的 QQ，请
-      - 确保您已按照本页的通用流程隐藏 root 和注入环境
+      - 确保您已按照本文件夹下的通用流程隐藏 root 和注入环境
       - 在 QAuxiliary（QA）插件中打开禁用 QQ 热补丁开关并关闭环境检测包（trpc.o3.*）拦截开关
       - 切换到 ``v9.1.31`` 或更低版本，
       - 切换到 ``v9.0.95`` 或更低版本，或者
@@ -338,8 +341,11 @@ exit ${exitCode}
 
 ##### 关于社交软件发送设备风险提醒、下线用户、限制社交功能或冻结账号的猜测
 
-虽然部分“LRFP”爱好者表示微信和 QQ 的限制与版本无关，并总结出了一套详细的量化的计算公式，但个人感觉是版本越高，本地用于检测环境的“冷”代码就越多，对云端下发的用于检测环境的“热”代码的支持就越丰富。
+虽然部分“LRFP”爱好者表示微信和 QQ 的限制与版本无关，并总结出了一套详细的量化的计算公式，但根据以下观察，我们的观点是版本越高，本地用于检测环境的“冷”代码就越多，对云端下发的用于检测环境的“热”代码的支持就越丰富。
 
-长期以来，本团队中的成员经常在大型风控期间一越过某个版本第二天就被下线和限制，而降级至该版本以下就只会收到警告，再降级到某个更低的版本或以下就不再收到任何警告（当然如果之前是因为设备 ID 已经被上传到了云端而收到不断下发的警告则需要更换设备后警告才会被消除）。
+- 长期以来，本团队中的成员经常在大型风控期间一越过某个版本第二天就被下线和限制，而降级至该版本以下就只会收到警告，再降级到某个更低的版本或以下就不再收到任何警告（当然如果之前是因为设备 ID 已经被上传到了云端而收到不断下发的警告则需要更换设备后警告才会被消除）。
+- 有开发者表示，他们在 2026 年 6 月 15 日的大规模下线和封号事件发生前捕捉到了极为频繁的热补丁。在此事件中，被下线和封号的用户几乎都在使用高版本微信和未在插件中开启“禁用热补丁”功能的低版本微信，需要在高版本微信中使用拥有“禁用热补丁”功能的插件才能完成完整的对比实验。
+
+此处，我们建议使用低版本+开启“禁用热补丁”功能的方式来实现过检。如果 LRFP 环境被检测到只是个人事件，那往往是某个事宜被“冷”代码检测到；如果 LRFP 环境被检测到是时间集中的大规模事件，那往往是某个事宜被“热”代码检测到。
 
 另外，安卓应用层注入已被证明无法通过任何第三方手段对被注入的应用程序进行隐藏，只要被注入的应用程序想检测，就有手段检测到；只有在注入目标应用时将目标应用内所有与环境检测有关的代码“控制”住才可能实现安全的隐藏，而这，需要插件的开发人员对目标应用进行极为深入的逆向分析以及对云端的大胆揣测。
