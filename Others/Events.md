@@ -7,12 +7,12 @@ Related events related to Magisk, Zygisk, and LSPosed are stored here.
 - 20220120: The Shamiko module was first publicly released. 
 - 20221209: The KernelSU (KSU) was first publicly released. 
 - 20230202: The Zygisk Next module was first publicly released. 
-- 20240107: The official LSPosed stopped updating LSPosed due to dramas. Subsequently, Magisk Delta stopped updating as well. 
-- 20240109: Zygisk Next, Shamiko, and KSU are maliciously slandered. 
+- 20240107: The official LSPosed stopped publicly updating due to drama. Subsequently, Magisk Delta stopped updating as well. 
+- 20240109: Zygisk Next, Shamiko, and KSU are maliciously slandered. Some repositories suspended updates during the period of defamation. 
 - 20240901-present: There is a large-scale account logging-out and blocking phenomenon in Tencent QQ. 
 - 20241203: Google announced that it will enhance the Play integrity check for Android 13 and above, and will implement it in May 2025. The old Strong will become the new Device, and the old Device will become the new Basic. 
 - 20250520: The server of the WechatXposed plugin stopped. Subsequently, a large number of WeChat plugins stopped updating due to "too high exposure". 
-- 20250606: The author of the Play Integrity Fix module announces to discontinue in Telegram, who had previously humorously announced on national Fool's Day that he would be suspending updates due to threats from Google. 
+- 20250606: The author of the Play Integrity Fix module announces to discontinue in Telegram, who had previously humorously announced on National Fool's Day that he would be suspending updates due to threats from Google. 
 - 20250609: WX Repair Tool_v2.0 is published. After downloading the core files and FKZ_WX_DATA files, the WechatXposed plugin can be used again. 
 - 20250624: HMA supported the interception of the application list detection by launching activities below Android 13. 
 - 20250917(-20260226): There is a large-scale account logging-out and blocking phenomenon in WeChat. Most blocked accounts are 8.0.56 or above, especially 8.0.62. 
@@ -27,6 +27,7 @@ Related events related to Magisk, Zygisk, and LSPosed are stored here.
 - 20260519: A repository appeared on GitHub that was republished after injecting malicious code into a well-known LRFP project. 
 - 20260530: A repository appeared on GitHub that was republished after plagiarizing a well-known LRFP project. 
 - 20260615: There is a large-scale account logging-out and blocking phenomenon in WeChat. A few users using earlier versions of WeChat with WechatXposed (hotfix disabled) said they were fortunate. 
+- 20260621: Some LRFP-related repositories have restored their rapid updating paces. 
 
 ---
 
@@ -39,8 +40,8 @@ Related events related to Magisk, Zygisk, and LSPosed are stored here.
 - 20220120：Shamiko 模块首次公开发布。
 - 20221209：KernelSU（KSU）首次公开发布。
 - 20230202：Zygisk Next 模块首次公开发布。
-- 20240107：LSPosed 官方因[抓马事件](https://blog.csdn.net/techforward/article/details/135545453)停止了更新，随后小狐狸面具也停止了更新。
-- 20240109：Zygisk Next、Shamiko 和 KSU 遭恶意诽谤。
+- 20240107：LSPosed 官方因[抓马事件](https://blog.csdn.net/techforward/article/details/135545453)停止了公开更新，随后小狐狸面具也停止了更新。
+- 20240109：Zygisk Next、Shamiko 和 KSU 遭恶意诽谤。一些存储库在遭诽谤期间暂缓更新。
 - 20240901-至今：腾讯 QQ 出现大规模封号现象。
 - 20241203：谷歌宣布增强安卓 13 及以上的 Play 完整性检验，并于 2025 年 5 月实施，旧 Strong 将变为新 Device，旧 Device 将变为新 Basic。
 - 20250520：微 X 模块服务器停止服务，随后大量微信插件因“曝光率太高”停更。
@@ -59,3 +60,4 @@ Related events related to Magisk, Zygisk, and LSPosed are stored here.
 - 20260519：GitHub 上出现向著名 LRFP 项目注入恶意代码后二次发布的存储库。
 - 20260530：GitHub 上出现抄袭著名 LRFP 项目后二次发布的存储库。
 - 20260615：微信出现大规模下线用户和封号现象，小部分用户在低版本微信使用微 X 模块（禁用微信热补丁）说他们幸运地躲过了一劫。
+- 20260621：一些与 LRFP 相关的存储库已恢复了快速更新的步伐。
