@@ -119,8 +119,8 @@
   - https://t.me/duck_detector
   openSource: true
   category: $D_E$
-  latestVersion: v2026.06.07-64d32c0c49b0 (476)
-  releaseDate: = 20260607
+  latestVersion: v2026.06.30-c32e40b65ec2 (478)
+  releaseDate: = 20260630
   detectionRemark:
     '*': 'This should be the most challenging one among all the detectors. '
     zh-CN: 这应该是目前最难以绕过的检测工具。
