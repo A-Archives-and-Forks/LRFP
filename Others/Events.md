@@ -28,6 +28,8 @@ Related events related to Magisk, Zygisk, and LSPosed are stored here.
 - 20260530: A repository appeared on GitHub that was republished after plagiarizing a well-known LRFP project. 
 - 20260615: There is a large-scale account logging-out and blocking phenomenon in WeChat. A few users using earlier versions of WeChat with WechatXposed (hotfix disabled) said they were fortunate. 
 - 20260621: Some LRFP-related repositories have restored their rapid updating paces. 
+- 20260704: QStory announced to be discontinued due to drama. 
+- 20260706: Some plugin developers have received lawyer's letters. 
 
 ---
 
@@ -61,3 +63,5 @@ Related events related to Magisk, Zygisk, and LSPosed are stored here.
 - 20260530：GitHub 上出现抄袭著名 LRFP 项目后二次发布的存储库。
 - 20260615：微信出现大规模下线用户和封号现象，小部分用户在低版本微信使用微 X 模块（禁用微信热补丁）说他们幸运地躲过了一劫。
 - 20260621：一些与 LRFP 相关的存储库已恢复了快速更新的步伐。
+- 20260704：QStory 因抓马事件宣布停更。
+- 20260706：一些插件的开发者被发律师函。

@@ -6,7 +6,8 @@ Please also consider using the latest one generated in the ``Actions`` tab of th
 
 Variants within the same series are enumerated in ascending order of founding date. 
 Kernel files and spoofed managers (non-archived) in KSU and its variants would not be stored here to reduce the repository size. 
-As KSU has inconsistent version codes in its GitHub workflows, only the version in the latest successful workflow triggered by the ``push`` will be stored here. 
+As KSU and some of its variants have inconsistent version codes in their GitHub workflows, 
+only the version in the latest successful workflow triggered by the ``push`` will be stored here for all KSU and its variants. 
 
 - Magisk and its variants 
   - Magisk / Magisk Beta / Magisk Canary / Magisk Debug: [https://github.com/topjohnwu/Magisk](https://github.com/topjohnwu/Magisk)
@@ -51,7 +52,8 @@ That is to say, metamodules will control the installation of the rooting-layer s
 
 同一系列的变体按创始日期升序枚举。
 为了减少存储库的大小，KSU 及其变体中的内核文件和混淆管理器（未归档的）将不会存储在此处。
-由于 KSU 在其不同的 GitHub 工作流中的版本号不一致，此处仅保存由 ``push`` 事件触发的最新成功工作流中的版本。
+由于 KSU 及其部分变体在其不同的 GitHub 工作流中的版本号不一致，
+此处统一对 KSU 及其所有变体仅保存由 ``push`` 事件触发的最新成功工作流中的版本。
 
 - 面具及其变体
   - 面具 / Beta 版面具 / 金丝雀面具 / Debug 版面具：[https://github.com/topjohnwu/Magisk](https://github.com/topjohnwu/Magisk)
