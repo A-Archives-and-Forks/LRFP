@@ -159,8 +159,8 @@
 			"officialLink":["https://github.com/eltavine/Duck-Detector-Refactoring", "https://t.me/duck_detector"], 
 			"openSource":true, 
 			"category":"$D_E$", 
-			"latestVersion":"v2026.07.15-220804f96035 (488)", 
-			"releaseDate":"= 20260715", 
+			"latestVersion":"v2026.07.23-70cf95d50cfb (491)", 
+			"releaseDate":"= 20260723", 
 			"detectionRemark":{
 				"*":"This should be the most challenging one among all the detectors. ", 
 				"zh-CN":"这应该是目前最难以绕过的检测工具。"
