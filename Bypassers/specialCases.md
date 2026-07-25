@@ -110,10 +110,11 @@ Please refer to [https://bbs.kanxue.com/thread-285106-1.htm](https://bbs.kanxue.
   - If you were using Magisk and its variants between the discontinuation of Magisk Delta and the release of Zygisk Next version 1.3.0, please install the latest Magisk Alpha and the latest Shamiko module
   - If you are currently using the official Magisk and its variants, please install the latest Magisk Alpha and the latest Zygisk Next module and enable ``Treat non-root apps as denylist`` with ``just_umount`` in the Zygisk Next module
 
-##### The Bank of China (Hong Kong) (BOCHK) application is unable to perform biometric authentication after upgrading its security measures on December 21st, 2025
+##### The Bank of China (Hong Kong) (BOCHK) application is unable to perform biometric authentication after upgrading its security measures on December 21st, 2025 (v7.4.9)
 
-- Remove the package name of the BOCHK application from the target of the Tricky Store module
+- Remove the package name of the BOCHK application from the target of the Tricky Store module and its variants
 - If biometric authentication is still unavailable, try resetting your BOCHK mobile security password or clearing all data of the BOCHK application
+- Try using [TEESimulator-RS](https://github.com/Enginex0/TEESimulator-RS)
 
 #### 12306
 
@@ -287,10 +288,11 @@ exit ${exitCode}
   - 如果您在 Magisk Delta 停更与 Zygisk Next 1.3.0 版本发布之间使用 Magisk 及其变体，请安装最新的 Magisk Alpha 和最新的 Shamiko 模块
   - 如果您现在正在使用官方 Magisk 及其变体，请安装最新的 Magisk Alpha 和最新的 Zygisk Next 模块并在 Zygisk Next 中启用将非 root 应用视为排除列表和仅还原挂载
 
-##### 中银香港应用程序在 2025 年 12 月 21 日升级了保安措施后无法进行生物认证
+##### 中银香港应用程序在 2025 年 12 月 21 日（7.4.9 版本）升级了保安措施后无法进行生物认证
 
-- 从 Tricky Store 模块的 target 中移除中银香港应用程序的包名
+- 从 Tricky Store 模块及其变体的 target 中移除中银香港应用程序的包名
 - 如果仍然无法进行生物认证可尝试重设流动保安密码或清除中银香港应用程序的所有数据
+- 尝试使用 [TEESimulator-RS](https://github.com/Enginex0/TEESimulator-RS)
 
 #### 12306
 
